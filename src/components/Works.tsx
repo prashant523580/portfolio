@@ -6,7 +6,7 @@ import { styles } from '../style'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
-const ProjectCard = ({index,name,description,tags,image,source_code_link} :any) => {
+const ProjectCard = ({index,name,tags,image,source_code_link} :any) => {
   return(
     <motion.div
     variants={fadeIn("up","spring",index*0.5,0.75)}
