@@ -5,11 +5,11 @@ import { ComputersCanvas } from '.'
 import { Link } from 'react-scroll'
 const Hero = () => {
   return (
-    <section className="relative w-full  h-screen mx-auto ">
+    <section className="relative w-full flex justify-center items-center flex-col h-screen mx-auto ">
       <div className={` ${styles.paddingX} absolute inset-0  max-w-7xl mx-auto flex flex-row items-start gap-5`}>
         <div className="flex flex-col justify-center items-center mt-5">
           {/* <div className='w-5 h-5 rounded-full bg-[#a52424]' /> */}
-          <div className="w-1 h-80 sm:h-40 bg-gradient-to-b from-[#a52424] "></div>
+          <div className="w-1 h-20 sm:h-40 bg-gradient-to-b from-[#a52424] "></div>
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I&apos;m <span className='text-[#a52424]'>Prashant </span></h1>

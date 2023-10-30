@@ -46,7 +46,7 @@ const About = () => {
 
 With years of experience in the industry, I have honed my skills in HTML, CSS, JavaScript, ReactJS, NextJS, Tailwind CSS, and SEO, allowing me to deliver top-notch web development solutions that meet my clients needs and exceed their expectations.
    </motion.p>
-    <div className="mt-20 grid grid-cols-2 flex-wrap gap-20">
+    <div className="mt-20 grid grid-cols-1 md:grid-cols-2 flex-wrap gap-20">
       {services.map((service,index) => (
           <ServiceCard key={service.title} index={index} {...service} />
       ))}
