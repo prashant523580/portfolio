@@ -297,7 +297,7 @@ import {
         },
       ],
       image: tajaprice,
-      source_code_link: "https://www.chordograph.com/",
+      source_code_link: "https://tajaprice-sigma.vercel.app/",
     },
   ];
   
