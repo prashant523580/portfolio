@@ -23,7 +23,7 @@ import {
     // jobit,
     // tripguide,
     threejs,
-    buddhatattoo,chordograph,newshub
+    buddhatattoo,chordograph,newshub,tajaprice, gelblastergun
   } from "../assets";
   
   export const navLinks : any[] = [
@@ -256,6 +256,48 @@ import {
       ],
       image: buddhatattoo,
       source_code_link: "https://buddhatattoohouse.web.app/",
+    },
+    {
+      name:"Gel Blaster Gun",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gelblastergun,
+      source_code_link: "https://gelblastergun.vercel.app/",
+    },
+    {
+      name: "Taja Price",
+      description:
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tajaprice,
+      source_code_link: "https://www.chordograph.com/",
     },
   ];
   

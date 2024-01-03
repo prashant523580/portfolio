@@ -32,6 +32,8 @@ import tripguide from "./tripguide.png";
 import buddhatattoo from "./buddhatattoo.png";
 import chordograph from "./chordograph.png";
 import newshub from "./newshub.png";
+import gelblastergun from "./gelblastergun.png";
+import tajaprice from "./tajaprice.png";
 export {
   logo,
   backend,
@@ -63,5 +65,6 @@ export {
   tripguide,
   buddhatattoo,
   chordograph,
-  newshub
+  newshub,
+  tajaprice,gelblastergun
 } ;
