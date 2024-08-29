@@ -23,7 +23,10 @@ import {
     // jobit,
     // tripguide,
     threejs,
-    buddhatattoo,chordograph,newshub,tajaprice, gelblastergun
+    buddhatattoo,chordograph,newshub,tajaprice, gelblastergun,
+    bhoj24,
+    dipeshNepali,
+    foodefare
   } from "../assets";
   
   export const navLinks : any[] = [
@@ -217,7 +220,71 @@ import {
         },
       ],
       image: chordograph,
-      source_code_link: "https://www.chordograph.com/",
+      source_code_link: "https://chordograph.com/",
+    },
+    {
+      name: "Bhoj24 - Food Delivery",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma ORM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: bhoj24,
+      source_code_link: "https://bhoj24.com/",
+    },
+    
+    {
+      name: "Dipesh Nepali",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma ORM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dipeshNepali,
+      source_code_link: "https://dipeshnepali.vercel.app/",
+    },
+    {
+      name: "Foodefare",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "next.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Prisma ORM",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: foodefare,
+      source_code_link: "https://foodefare.com/",
     },
     {
       name: "News hub",
@@ -257,27 +324,27 @@ import {
       image: buddhatattoo,
       source_code_link: "https://buddhatattoohouse.web.app/",
     },
-    {
-      name:"Gel Blaster Gun",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "next.js",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: gelblastergun,
-      source_code_link: "https://gelblastergun.vercel.app/",
-    },
+    // {
+    //   name:"Gel Blaster Gun",
+    //   description:
+    //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    //   tags: [
+    //     {
+    //       name: "next.js",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "mongodb",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: gelblastergun,
+    //   source_code_link: "https://gelblastergun.vercel.app/",
+    // },
     {
       name: "Taja Price",
       description:

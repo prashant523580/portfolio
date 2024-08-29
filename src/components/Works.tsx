@@ -20,7 +20,7 @@ const ProjectCard = ({index,name,tags,image,source_code_link} :any) => {
         className={'bg-gray-900 p-5 rounded-2xl sm:w-[340px] w-full'}
       >
         <div className="relative w-full h-[230px]">
-            <img src={image} alt={name} className='h-full w-full object-cover rounded-2xl' />
+            <img src={image} alt={name} className='h-full w-full object-cover object-top rounded-2xl' />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div onClick={() => {
                 typeof window !== undefined && window.open(source_code_link,"blank") 
@@ -70,7 +70,7 @@ const Works = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At officia doloremque ipsam, expedita voluptate unde, mollitia atque corporis voluptatibus vero suscipit assumenda, laboriosam odit eius exercitationem? Dicta sapiente placeat necessitatibus!
         </motion.p> */}
       </div>
-      <div className="flex flex-wrap mt-20 gap-5 justify-center">
+      <div className="flex flex-wrap mt-20 gap-4 justify-center">
         {
           projects.map((project,index) => (
               <ProjectCard

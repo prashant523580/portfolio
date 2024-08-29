@@ -34,6 +34,9 @@ import chordograph from "./chordograph.png";
 import newshub from "./newshub.png";
 import gelblastergun from "./gelblastergun.png";
 import tajaprice from "./tajaprice.png";
+import bhoj24 from "./bhoj24.png";
+import foodefare from "./Foodefare.png";
+import dipeshNepali from "./DipeshNepali.png"
 export {
   logo,
   backend,
@@ -66,5 +69,5 @@ export {
   buddhatattoo,
   chordograph,
   newshub,
-  tajaprice,gelblastergun
+  tajaprice,gelblastergun, bhoj24, dipeshNepali,foodefare
 } ;
