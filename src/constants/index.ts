@@ -23,7 +23,7 @@ import {
     // jobit,
     // tripguide,
     threejs,
-    buddhatattoo,chordograph,newshub,tajaprice, gelblastergun,
+    buddhatattoo,chordograph,newshub,tajaprice, 
     bhoj24,
     dipeshNepali,
     foodefare
